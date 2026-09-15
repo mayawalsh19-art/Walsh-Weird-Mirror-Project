@@ -49,4 +49,6 @@ masked into a peach-shaped face with a green stem and leaf, which gives the mirr
 an uncanny, playful fruit-person look. The soft pink and peach shapes make the
 whole image feel distorted, strange, and a little surreal.
 
-![Weird Mirror Photo](image.jpg)
+![Weird Mirror Photo](Screenshot%202026-09-15%20at%203.47.44%20PM.png)
+
+
