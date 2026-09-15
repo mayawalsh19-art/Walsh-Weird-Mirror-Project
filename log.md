@@ -43,12 +43,3 @@ The next step I did was ask Claude to implement a webcam within touch designer, 
     detection. Then that broke too — TD's bundled OpenCV was stripped of its
     data files (cv2.data didn't exist) — so Claude downloaded the standard
     cascade XML directly and pointed the script at it.
-
-09/15/2026: I also got the webcam face effect working visually. The camera feed is
-masked into a peach-shaped face with a green stem and leaf, which gives the mirror
-an uncanny, playful fruit-person look. The soft pink and peach shapes make the
-whole image feel distorted, strange, and a little surreal.
-
-![Weird Mirror Photo](Screenshot%202026-09-15%20at%203.47.44%20PM.png)
-
-
