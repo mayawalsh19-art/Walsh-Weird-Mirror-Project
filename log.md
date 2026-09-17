@@ -26,3 +26,9 @@ The next step I did was ask Claude to implement a webcam within touch designer, 
   - What broke: TD's native facetrackCHOP is Windows-only — errored with "not supported on this operating system."
   - What I asked Claude: to add the face → fruit effect anyway.
   - What happened: pivoted to a custom Script TOP using OpenCV Haar-cascade face detection. Then that broke too — TD's bundled OpenCV was stripped of its data files (cv2.data didn't exist) — so Claude downloaded the standard cascade XML directly and pointed the script at it.
+
+  9/17/2026: Today I worked on researching three designers and finding responsive videos/artwork for reference and logged it in a GitHub file named designerworks.md. Next I came up with 10 concepts for potential Weird Mirror ideas. 
+
+  This process was hard because it came down to trying to find different ideas, which is something that I struggled with. I feel like towards the end some of my ideas were combining, so it will be helpful to get some feedback this coming Monday. Next after coming up with the ideas, the inputs, the changes, and how the viewer knows, i used AI to help come up with some sketches. I knew I would not be able to correctly sketch out my ideas, so AI helped that process be able to tell the story a little bit better. I uploaded the concepts.md file and the sketches to GitHub. 
+
+  Lastly, now I am logging what I did for homework today. I am excited to finalize an idea and start working on the project. 
