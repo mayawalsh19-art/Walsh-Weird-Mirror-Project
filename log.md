@@ -54,3 +54,44 @@ The next step I did was ask Claude to implement a webcam within touch designer, 
   Since then, I altered my idea a little bit after recieving a critique from the class. Now my idea focusses more on the idea of a sequins shirt where if you swipe one way it changes to a photo and if you swipe back the other way then it changes back to the pixelated image of yourself. 
 
   I actually did not struggle making the actual output as Claude listened pretty well. I told Claude to use an image of a Jayhawk when swiping my hand and make it pixelated and it did that instantly. The only thing it struggled with was the swiping motion, which we are still working on. I prompted it several times, however it still has a few bugs to fix in later sessions. 
+
+  09/28/2026: Today's task was to polish and fully create a full interaction flow of our projects. I started by brainstorming what more I could add and what journey I could go down. 
+
+  I came to this conclusion of my journey. Ideally you would step in front of the camera and it would be a pixelated image of you and the background. My idea was with the swip of your hand in one direction it would depict a pixelated jayhawk and with the swipe of your hand the opposite direction it would depict your face again. I just added in the aspect of when the jayhawk is fully shown then the "I'm a Jayhawk" song starts playing. 
+
+  Here are the steps we took today to make a lot of progress: 
+
+  1. Tried skin-based swipe detection. Only moving skin counted, to stop stray
+     Jayhawk pixels and leftover patches. Your body still triggered it in a tank
+     top, so we moved on.
+  2. Tried MediaPipe hand tracking inside TouchDesigner. It froze TouchDesigner,
+     and you had to force-quit (nothing was lost).
+  3. Set up real hand tracking as a separate helper program. MediaPipe 0.10.14
+     runs in ~/Desktop/td-mcp/handtracker/, and TouchDesigner sends it camera
+     frames and gets back hand positions. The Jayhawk now follows only your
+     hands' paths, and TouchDesigner starts the helper automatically.
+  4. Added body delay and break-apart. Moving your body makes your pixels drag
+     and blocks scatter, while hands keep swiping the Jayhawk. This also
+     replaced the old always-wobbling scatter.
+  5. Kept the Jayhawk still once it's revealed. No drag or scatter on or near
+     the picture.
+  6. Made your pixels come back faster. The drag recovers in about 0.13 s (was
+     0.5 s), and the break-apart in about 0.25 s (was 0.6 s).
+  7. Built, then removed, the Lawrence journey. We tried your KU prints as a
+     journey (poster payoffs, then posters as the reveal), then went back to
+     your original Jayhawk design at 40×30 pixels.
+  8. Added a face guard. Your face can never create the Jayhawk, only your
+     hands, and the tracker was made stricter.
+  9. Added the KU fight song. "I'm a Jayhawk" (ku_song.mp3) plays when the
+     Jayhawk covers 90% of the screen, and fades out when you swipe back to your
+     face.
+  10. Polish step 1: reset for the next stranger. After 20 seconds with nobody
+      there, every sequin flips back to the mirror and the song stops.
+  11. Polish step 2: run-through test. Your recorded run confirmed steady 60
+      fps, no errors, swipes only from hands, and the song starting and stopping
+      correctly. You skipped the walk-away and 3-minute unattended tests, which
+      are still worth doing before the demo.
+  12. Polish step 3: visual payoff. When the song starts, light sweeps across
+      the Jayhawk's sequins, then they twinkle while it plays.
+
+Overall it was a very successful day and progress photos will be within the TDprogress folder along with a screen recording of the improvements!
