@@ -98,4 +98,6 @@ Overall it was a very successful day and progress photos will be within the TDpr
 
 10/04/2026: Today's main focus was on guerilla testing and user testing in general. First before testing I wanted to work out the kinks and make sure that TD understood I needed my weird mirror to be a mirrored view and that I only wanted the mirror to pick up HAND movements to create my image of a jayhawk. I have had a lot of practice with prompting Claude by now, which has definitely helped in the final product. I have not had a lot of chances where things have broke. Within this session it was very straight forward: edit how the mirror percieves a person and user test. 
 
-User testing: I set up my computer in front of two people who were visiting for the weekend and they walked in front of it. 
+User testing #1: I set up my computer in front of two people who were visiting for the weekend and they walked in front of it. My first user tester was actually very beneficial because there was a problem with my TD file. When he went to move his hands the jayhawk was not appearing so I had to prompt Claude to bring that feature back and ask it to be able to read the hand motions from far away. 
+
+User testing #2: 
