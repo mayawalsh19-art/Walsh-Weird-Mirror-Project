@@ -100,4 +100,4 @@ Overall it was a very successful day and progress photos will be within the TDpr
 
 User testing #1: I set up my computer in front of two people who were visiting for the weekend and they walked in front of it. My first user tester was actually very beneficial because there was a problem with my TD file. When he went to move his hands the jayhawk was not appearing so I had to prompt Claude to bring that feature back and ask it to be able to read the hand motions from far away. 
 
-User testing #2: 
+User testing #2: I did a second round of user testing today and realized there were more bugs! When she went to swipe her hand to the right to reveal the Jayhawk and it reached 80-90% seen, the song started playing and it froze to the point where she could not reverse what she did and go back to her face. 
