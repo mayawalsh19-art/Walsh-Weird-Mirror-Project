@@ -103,3 +103,10 @@ User testing #1: I set up my computer in front of two people who were visiting f
 User testing #2: I did a second round of user testing today and realized there were more bugs! When she went to swipe her hand to the right to reveal the Jayhawk and it reached 80-90% seen, the song started playing and it froze to the point where she could not reverse what she did and go back to her face. So I made some changes and after I made some changes, I had her try it again and she started waving her hands in front of the camera. She was able to form most of the Jayhawk, however not all of it so the song did not start playing. I edited it back and it seems to be working now. 
 
 I had a lot of issues with Claude this session, however after a couple prompts asking to bug check I realized that I was over complicating Claude with my prompts. I was confusing it which was making it buggy, so I learned this session to keep it simple with Claude. 
+
+Things to Change Based on Feedback: 
+1. make pixels on Jayhawk the same size as pixels on yourself. 
+2. make jayhawk move when complete
+3. only play the song when it is fully shown on the screen 
+4. connect the screens of yourself and jayhawk to one. 
+5. add a background to jayhawk/play into more of scale size 
