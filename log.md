@@ -2,6 +2,8 @@ THIS IS MY BUILD LOG
 
 Documentation Video Link: https://bymayawalsh.design/weirdmirror/video/weird-mirror-demo.mp4 
 
+Documentation Video (Screen Recording) 2: https://bymayawalsh.design/weirdmirror/video/screen-view.mp4 
+
 09/09/2026: I started this project. 
 
 09/15/2026: Today is the day I started connecting Claude MCP to Touch Designer and let me tell you it has not been easy. I downloaded Touch Designer last week and thought it was fairly easy to download and sign in to. However, I have spent hours trying to connect the MCP to TD and I do not know if it is user error or not. I have spent almost two hours trying to connect the two servers. It has been a lot of trial and error tactics, but I finally got it to work. 
